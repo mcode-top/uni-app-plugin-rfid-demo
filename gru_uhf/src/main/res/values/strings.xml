@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_service_description">键盘辅助功能服务，用于全局监听键盘事件。</string>
+</resources>

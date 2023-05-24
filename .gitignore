@@ -1,0 +1,51 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches/build_file_checksums.ser
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+# 构建的应用程序文件
+*.apk
+*.ap_
+
+# Dalvik VM相关文件
+*.dex
+
+# Java类文件
+*.class
+
+# 编译的JNI库
+*.so
+
+# Android Studio生成的编译代码
+out/
+
+# IDE生成的文件
+.idea/
+
+# Gradle构建文件和中间生成的构建输出
+.gradle/
+build/
+
+# 本地配置文件（与Android Studio相关）
+studio/
+
+# Android Studio导航文件
+.navigation/
+
+# Android Studio截屏文件夹
+captures/
+
+# ProGuard文件
+proguard/
+
+# Crashlytics生成的文件
+crashlytics-build.properties
+
+# Android虚拟设备（AVD）文件
+*.avd/

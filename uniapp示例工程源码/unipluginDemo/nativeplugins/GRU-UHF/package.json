@@ -1,0 +1,31 @@
+{
+    "name": "gru-uhf",
+    "version": "1.0.0",
+    "description": "金瑞铭-手持式超高频读写",
+    "main": "index.js",
+    "id": "GRU-UHF",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "_dp_type": "nativeplugin",
+    "_dp_nativeplugin": {
+        "android": {
+            "plugins": [
+                {
+                    "type": "module",
+                    "name": "UHFModule",
+                    "class": "com.rfid.gru_uhf.UHFModule"
+                }
+            ],
+            "permissions": [
+                "<uses-permission android:name=\"android.permission.BROADCAST_STICKY\" />",
+                "<uses-permission android:name=\"android.permission.WAKE_LOCK\" />",
+                "<uses-permission android:name=\"android.permission.DISABLE_KEYGUARD\" />",
+                "<uses-permission android:name=\"android.permission.SYSTEM_ALERT_WINDOW\" />"
+            ],
+            "integrateType": "aar"
+        }
+    },
+    "author": "mmmmmmmm",
+    "license": "ISC"
+}
